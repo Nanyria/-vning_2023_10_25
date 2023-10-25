@@ -15,7 +15,12 @@ namespace Övning_2023_10_25
         }
         public override void Ljud()
         {
-            Console.WriteLine("BRRRRRRRR");
+            Console.WriteLine("BRRRRRRRR\n");
+        }
+        public override void AnimalInfo()
+        {
+            Console.WriteLine($"Draken heter {_Name} och är {_Age} år gammal.\nPowerlevel: {_powerLevel}.");
+            base.AnimalInfo();
         }
     }
 }
