@@ -16,12 +16,13 @@ namespace Övning_2023_10_25
 
         public override void Ljud()
         {
-            Console.WriteLine("Tigern låter GRRR!");
+            Console.WriteLine("Tigern låter GRRR!\n");
         }
         public override void AnimalInfo()
         {
-            Console.WriteLine("Tigerns namn är: {0}. \n{0} är {1} år gammal.\n{0} kommer ifrån landet {2}.", _Name, _Age, _origin);
-
+            
+            Console.WriteLine("\n TIGER\nTigerns namn är: {0}. \n{0} är {1} år gammal.\n{0} kommer ifrån landet {2}.", _Name, _Age, _origin);
+            base.AnimalInfo();
         }
 
 
