@@ -11,7 +11,6 @@
             Djur[] djur = { tiger, hund, drake };
             foreach (Djur item in djur)
             {
-
                 item.AnimalInfo();
                 item.Ljud();
             }

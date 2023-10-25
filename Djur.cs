@@ -26,11 +26,11 @@ namespace Övning_2023_10_25
         {
             if (_IfMagical)
             {
-                Console.WriteLine("Djuret är magiskt! Woooh!");
+                Console.WriteLine("Djuret är magiskt! Woooh!\n");
             }
             else
             {
-                Console.WriteLine("Djuret är inte magiskt.");
+                Console.WriteLine("Djuret är inte magiskt.\n");
             }
 
         }
