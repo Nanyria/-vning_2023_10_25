@@ -4,7 +4,10 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Tiger tiger = new Tiger();
+            tiger.Ljud();
+
+            Console.ReadKey();
         }
     }
 }
