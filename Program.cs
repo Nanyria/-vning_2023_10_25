@@ -6,6 +6,8 @@
         {
             Tiger tiger = new Tiger();
             tiger.Ljud();
+            Hund hund = new Hund();
+
 
             Console.ReadKey();
         }
