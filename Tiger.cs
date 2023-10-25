@@ -20,6 +20,7 @@ namespace Övning_2023_10_25
         }
         public override void AnimalInfo()
         {
+            base.AnimalInfo();
             Console.WriteLine("Tigerns namn är: {0}. \n{0} är {1} år gammal.\n{0} kommer ifrån landet {2}.", _Name, _Age, _origin);
 
         }

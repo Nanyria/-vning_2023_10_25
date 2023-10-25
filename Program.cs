@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            Tiger tiger = new Tiger();
+            Tiger tiger = new Tiger("Leopold", 6, false, "Indien");
             Hund hund = new Hund();
             Drake drake = new Drake();
 
@@ -12,6 +12,7 @@
             foreach (Djur item in djur) 
             {
                 item.Ljud();
+                item.AnimalInfo();
             }
 
 
