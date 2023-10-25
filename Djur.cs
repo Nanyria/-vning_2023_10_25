@@ -8,6 +8,16 @@ namespace Övning_2023_10_25
 {
     internal class Djur
     {
+        public string _Name;
+        public int _Age;
+        public bool _IfMagical;
+
+        public Djur(string Name, int Age, bool IfMagical)
+        {
+            _Name = Name;
+            _Age = Age;
+            _IfMagical = IfMagical;
+        }
         public virtual void Ljud()
         {
 
