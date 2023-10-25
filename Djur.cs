@@ -22,5 +22,9 @@ namespace Övning_2023_10_25
         {
 
         }
+        public virtual void AnimalInfo()
+        {
+
+        }
     }
 }
