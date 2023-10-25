@@ -5,9 +5,14 @@
         static void Main(string[] args)
         {
             Tiger tiger = new Tiger();
-            tiger.Ljud();
             Hund hund = new Hund();
+            Drake drake = new Drake();
 
+            Djur[] djur = { tiger, hund, drake };
+            foreach (Djur item in djur) 
+            {
+                item.Ljud();
+            }
 
             Console.ReadKey();
         }
