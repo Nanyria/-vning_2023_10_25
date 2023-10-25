@@ -24,6 +24,14 @@ namespace Övning_2023_10_25
         }
         public virtual void AnimalInfo()
         {
+            if (_IfMagical)
+            {
+                Console.WriteLine("Djuret är magiskt! Woooh!");
+            }
+            else
+            {
+                Console.WriteLine("Djuret är inte magiskt.");
+            }
 
         }
     }
