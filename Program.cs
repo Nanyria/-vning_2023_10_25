@@ -9,10 +9,11 @@
             Drake drake = new Drake();
 
             Djur[] djur = { tiger, hund, drake };
-            foreach (Djur item in djur) 
+            foreach (Djur item in djur)
             {
-                item.Ljud();
+
                 item.AnimalInfo();
+                item.Ljud();
             }
 
 
