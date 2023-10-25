@@ -20,9 +20,9 @@ namespace Övning_2023_10_25
         }
 
         public override void AnimalInfo()
-        {
+        {            
+            Console.WriteLine($"Hundens namn: {_Name}\nÅlder: {_Age}\nFavoritmat: {_favoritmat}");
             base.AnimalInfo();
-            Console.WriteLine($"Hundens namn är: {_Name}\nÅlder: {_Age}\nFavoritmat: {_favoritmat}");
         }
     }
 }
