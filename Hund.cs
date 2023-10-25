@@ -19,5 +19,10 @@ namespace Övning_2023_10_25
             Console.WriteLine("Hunden skäller.");
         }
 
+        public override void AnimalInfo()
+        {
+            base.AnimalInfo();
+            Console.WriteLine($"Hundens namn är: {_Name}\nÅlder: {_Age}\nFavoritmat: {_favoritmat}");
+        }
     }
 }
