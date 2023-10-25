@@ -14,6 +14,7 @@
                 item.Ljud();
             }
 
+
             Console.ReadKey();
         }
     }
