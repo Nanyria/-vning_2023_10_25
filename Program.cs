@@ -6,7 +6,7 @@
         {
             Tiger tiger = new Tiger("Leopold", 6, false, "Indien");
             Hund hund = new Hund("Ozzy", 12, false, "köttbullar");
-            Drake drake = new Drake();
+            Drake drake = new Drake("Barban", 1000, true, 9001);
 
             Djur[] djur = { tiger, hund, drake };
             foreach (Djur item in djur)
